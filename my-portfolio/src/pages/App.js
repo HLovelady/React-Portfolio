@@ -27,13 +27,13 @@
 import React from "react";
 import Header from "../components/Header";
 //import Section from "./components/Section";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import '../styles/App.css';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       {/* <Section /> */}
     </div>
