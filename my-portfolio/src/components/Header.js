@@ -8,7 +8,9 @@ function Header() {
             <Navbar />
             <div className="pic-bio">
                 <img src={headShot} height={300} alt="haylee" className="headshot" /> 
-                <div>bio</div>
+                <div className="bio">
+                    <h2>Hi, I'm Haylee!</h2>
+                </div>
             </div>
         </header>
     );

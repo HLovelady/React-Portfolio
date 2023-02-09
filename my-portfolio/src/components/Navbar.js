@@ -13,11 +13,12 @@ function Navbar() {
       <h4>Haylee Lovelady</h4>
 
       <ul className="flex white">
-        <li style={styles.green}>
-          <div>{"< Home />"}</div>
-        </li>
+
         <li style={styles.green}>
           <div>{"< Experience />"}</div>
+        </li>
+        <li style={styles.green}>
+          <div>{"< Contact.Me />"}</div>
         </li>
       </ul>
     </nav>
