@@ -25,8 +25,8 @@
 // export default App;
 
 import React from "react";
-// import Header from "./components/Header";
-// import Section from "./components/Section";
+import Header from "../components/Header";
+//import Section from "./components/Section";
 import Navbar from "../components/Navbar";
 import '../styles/App.css';
 
@@ -34,8 +34,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Header />
-      <Section /> */}
+      <Header />
+      {/* <Section /> */}
     </div>
   );
 }
