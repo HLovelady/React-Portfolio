@@ -25,6 +25,20 @@ nav {
   display: flex,
 }
 
+.project-cards {
+  display: flex;
+}
+
+h3 {
+  color: var(--green);
+  padding: 20px;
+}
+
+.card {
+  background-color: var(--med-gray);
+  width: 30%;
+}
+
 
 
 

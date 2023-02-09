@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "../components/Card";
 
+
 function Projects() {
     return (
-        <div>
-            <Card />
+        <div className="project_cards">
+            {/* <Card thumbnail={thumbnail}/> */}
             <Card />
             <Card />
             <Card />
