@@ -6,8 +6,8 @@ function Header() {
     return (
         <header>
             <Navbar />
-            <div>
-                <img src={headShot} height={250} alt="haylee"  /> 
+            <div className="pic-bio">
+                <img src={headShot} height={300} alt="haylee" className="headshot" /> 
                 <div>bio</div>
             </div>
         </header>
