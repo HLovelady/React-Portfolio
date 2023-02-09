@@ -22,7 +22,17 @@ header {
 }
 
 nav {
-  display: flex,
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+ul , li, h4{
+  display: flex;
+  align-items: baseline;
+  margin: 5px;
+  padding: 5px;
 }
 
 .project-cards {

@@ -1,42 +1,27 @@
-import React from 'react';
-import '../styles/App.css';
+import React from "react";
+import "../styles/App.css";
 
 const styles = {
-// //     card: {
-// //       margin: 20,
-// //       background: '#e8eaf6',
-// //     },
-// //     heading: {
-// //       background: '#9a74db',
-// //       minHeight: 50,
-// //       lineHeight: 3.5,
-// //       fontSize: '1.2rem',
-// //       color: 'white',
-// //       padding: '0 20px',
-// //     },
-// *Potential style*      
-green: {
-   color: '#4dba87',
- }
+  green: {
+    color: "#4dba87",
+  },
 };
-  
-  // In Navbar, we can assign a style from an object by using curly braces
-  function Navbar() {
-    return (
-      <nav className="flex light-bg justify-space">
-        <div>Haylee Lovelady</div>
 
-        <ul className="flex white">
-          <li style={styles.green}>
-              <div>{"< Home />"}</div>
-          </li>
-          <li>
-              <div>Resume.</div>
-          </li>
-        </ul>
-      </nav>
-    );
-  }
-  
-  export default Navbar;
-  
+function Navbar() {
+  return (
+    <nav className="flex light-bg justify-space">
+      <h4>Haylee Lovelady</h4>
+
+      <ul className="flex white">
+        <li style={styles.green}>
+          <div>{"< Home />"}</div>
+        </li>
+        <li style={styles.green}>
+          <div>{"< Experience />"}</div>
+        </li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Navbar;
