@@ -1,16 +1,20 @@
 import React from "react";
 
-function Card({data}) {
+
+function Card(props) {
     return (
+
         <div className="card">
-            <div className="card_body">
-                <h3 className="project_name">Project</h3>
-                {data.map((user) => (
+
+                {/* <div key={props.id} className= "Project_card">
+                    <img src={props.image} alt={props.title} className="project-image"> {props.content}</img>
+                </div> */}
+
+                {/* {data.map((user) => (
                     <div className="card_data" key={data.id}>
                         {`${data.image}`}
-                </div>
-                ))};
-            </div>
+                </div> */}
+                {/* ))}; */}
         </div>
     );
 }

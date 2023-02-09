@@ -31,7 +31,7 @@ green: {
               <div>{"< Home />"}</div>
           </li>
           <li>
-              <div>About Me.</div>
+              <div>Resume.</div>
           </li>
         </ul>
       </nav>
