@@ -1,0 +1,9 @@
+:root {
+    --med-gray: #2D2E32;
+    --drk-gray: #25262A;
+    --white: #FFFFFF;
+    --lgt-gray: #777777;
+    --green: #4dba87;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
