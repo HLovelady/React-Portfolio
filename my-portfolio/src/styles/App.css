@@ -13,15 +13,16 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Mono';
+  color: var(--white)
 }
 
 header {
   background-color: var(--med-gray);
 }
 
-
-
-
+nav {
+  display: flex,
+}
 
 
 

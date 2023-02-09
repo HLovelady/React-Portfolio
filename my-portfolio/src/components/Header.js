@@ -6,7 +6,7 @@ function Header() {
     return (
         <header>
             <Navbar />
-            <div className="header flex light-bg">
+            <div>
                 <img src={headShot} height={250} alt="haylee"  /> 
                 <div>bio</div>
             </div>

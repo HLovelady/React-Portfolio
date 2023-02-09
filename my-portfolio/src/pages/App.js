@@ -26,7 +26,7 @@
 
 import React from "react";
 import Header from "../components/Header";
-//import Section from "./components/Section";
+import Projects from "../components/Projects";
 // import Navbar from "../components/Navbar";
 import '../styles/App.css';
 
@@ -35,7 +35,7 @@ function App() {
     <div>
       {/* <Navbar /> */}
       <Header />
-      {/* <Section /> */}
+      <Projects />
     </div>
   );
 }

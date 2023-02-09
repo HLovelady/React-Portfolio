@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/App.css';
 
-// const styles = {
+const styles = {
 // //     card: {
 // //       margin: 20,
 // //       background: '#e8eaf6',
@@ -15,20 +15,19 @@ import '../styles/App.css';
 // //       padding: '0 20px',
 // //     },
 // *Potential style*      
-//        green: {
-//           color: '#4dba87',
-//       },
-// /};
+green: {
+   color: '#4dba87',
+ }
+};
   
   // In Navbar, we can assign a style from an object by using curly braces
   function Navbar() {
     return (
       <nav className="flex light-bg justify-space">
-        <div className="haylee">Haylee Lovelady</div>
+        <div>Haylee Lovelady</div>
 
         <ul className="flex white">
-          <li>
-          {/* <li style={styles.green}> */}
+          <li style={styles.green}>
               <div>{"< Home />"}</div>
           </li>
           <li>
