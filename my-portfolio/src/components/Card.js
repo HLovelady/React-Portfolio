@@ -21,7 +21,7 @@ console.log(props.bingo)
         <div 
             className="card" 
             onClick={handleClick}
-            style={{ backgroundImage: `url(${props.bingo.image})`
+            style={{ backgroundImage: `url(${props.bingo.image})`,backgroundSize: 'cover'
                  }}
             >
             <h1>{props.bingo.title}</h1>
