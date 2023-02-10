@@ -53,15 +53,15 @@ nav {
   margin-top: 5%;
 }
 
+.project_card {
+  display: flex;
+}
+
 ul , li, h4{
   display: flex;
   align-items: baseline;
   margin: 5px;
   padding: 5px;
-}
-
-.project-cards {
-  display: flex;
 }
 
 h3 {
@@ -71,7 +71,18 @@ h3 {
 
 .card {
   background-color: var(--med-gray);
-  width: 30%;
+  width: 400px;
+  height: 200px;
+  border-radius: 8px;
+  /* background-image: url(../images/social-nw-api.png); */
+}
+.card:hover + .card>.proj-img{
+    /* display: block; */
+    background: cover;
+}
+
+.card>.proj-img {
+  display: none;
 }
 
 

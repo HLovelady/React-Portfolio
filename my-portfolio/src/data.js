@@ -10,6 +10,8 @@ const data = [
       title: "MyLocalMusic",
       content: "MyLocalMusic",
       image: music,
+      tech: "HTML, CSS, Javascript",
+      area: "Frontend",
     },
 
     {
@@ -17,6 +19,8 @@ const data = [
       title: "Team Profile Generator",
       content: "Team Profile Generator",
       image: profile,
+      tech: "Javascript",
+      area: "Backend",
     },
 
     {
@@ -24,6 +28,8 @@ const data = [
       title: "Safe Nyt App",
       content: "Safe Nyt App",
       image: safe,
+      tech: "HTML, CSS, Javascript",
+      area: "Frontend",
     },
 
     {
@@ -31,6 +37,8 @@ const data = [
       title: "Social Network API",
       content: "Social Network API",
       image: social,
+      tech: "Javascript",
+      area: "Backend",
     },
   ];
 

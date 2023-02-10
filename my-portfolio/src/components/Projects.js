@@ -22,7 +22,7 @@ function Projects() {
                 dataset.map(item => (
                     //console.log(item);
                  // something logic happenin on item   
-                    <Card bingo={item} className={item.id} setSelected={setSelected}/>
+                    <Card bingo={item} className={item.id} setSelected={setSelected} key={item.id}/>
                 ))
             }
 
