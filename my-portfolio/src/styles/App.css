@@ -74,7 +74,7 @@ h3 {
   width: 400px;
   height: 200px;
   border-radius: 8px;
-  /* background-image: url(../images/social-nw-api.png); */
+  
 }
 .card:hover + .card>.proj-img{
     /* display: block; */
