@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 
+// const [showImage, setShowImage] = useState();
 
+// const handleMouseEnter = () => setShowImage(true)
+// const handleMouseLeave = () => setShowImage(false)
 
 function Card(props) {
   console.log(props.bingo.image); // ---> { bingo: { } }
@@ -16,15 +19,18 @@ function Card(props) {
   };
 
   return (
+
+    
     <div
       className="card"
       onClick={handleClick}
       style={{
         backgroundImage: `url(${props.bingo.image})`,
         backgroundSize: "cover"
-
       }}
     >
+    <div  className=""  style={{
+        backgroundImage: `url(${props.bingo.image})`,  backgroundSize: "cover"}}></div>
       <h1>{props.bingo.title}</h1>
       <p className="tech">Tech Focus: {props.bingo.tech}</p>
       <p className="area">Focus Area: {props.bingo.area}</p>

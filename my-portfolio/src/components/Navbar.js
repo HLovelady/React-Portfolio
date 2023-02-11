@@ -1,24 +1,51 @@
 import React from "react";
-import "../styles/App.css";
+
 
 const styles = {
   green: {
     color: "#4dba87",
   },
+  a: {
+    color: "#4dba87",
+  },
 };
 
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="flex light-bg justify-space">
-      <h4>Haylee Lovelady</h4>
+      <h4>
+        <a
+          href="#home"
+          onClick={() => handlePageChange("Home")}
+          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+        >
+          Haylee Lovelady
+        </a>
+      </h4>
 
-      <ul className="flex white">
-
-        <li style={styles.green}>
-          <div>{"< Experience />"}</div>
+      <ul className="nav nav-tabs flex white">
+        <li className="nav-item" style={styles.green}>
+          <a
+            href="#experience"
+            onClick={() => handlePageChange("Experience")}
+            className={
+              currentPage === "Experience" ? "nav-link active" : "nav-link"
+            }
+          >
+            {"< Experience />"}
+          </a>
         </li>
-        <li style={styles.green}>
-          <div>{"< Contact.Me />"}</div>
+
+        <li className="nav-item" style={styles.green}>
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className={
+              currentPage === "Contact" ? "nav-link active" : "nav-link"
+            }
+          >
+            {"< Contact.Me />"}
+          </a>
         </li>
       </ul>
     </nav>

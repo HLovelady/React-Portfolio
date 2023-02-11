@@ -12,6 +12,9 @@ const data = [
       image: music,
       tech: "HTML, CSS, Javascript",
       area: "Frontend",
+      gitHub: "",
+      deployed: "",
+      content: "",
     },
 
     {
@@ -21,6 +24,9 @@ const data = [
       image: profile,
       tech: "Javascript",
       area: "Backend",
+      gitHub: "",
+      deployed: "",
+      content: "",
     },
 
     {
@@ -30,6 +36,9 @@ const data = [
       image: safe,
       tech: "HTML, CSS, Javascript",
       area: "Frontend",
+      gitHub: "",
+      deployed: "",
+      content: "",
     },
 
     {
@@ -39,6 +48,9 @@ const data = [
       image: social,
       tech: "Javascript",
       area: "Backend",
+      gitHub: "",
+      deployed: "",
+      content: "",
     },
   ];
 
