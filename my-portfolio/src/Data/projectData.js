@@ -1,10 +1,10 @@
-import music from "./images/MyLocalMusic2.png";
-import profile from "./images/profile-gen.png";
-import safe from "./images/safe-nyt.png";
-import social from "./images/social-nw-api.png";
+import music from "../images/MyLocalMusic2.png";
+import profile from "../images/profile-gen.png";
+import safe from "../images/safe-nyt.png";
+import social from "../images/social-nw-api.png";
 
 
-const data = [
+const projectData = [
     {
       id: 1,
       title: "MyLocalMusic",
@@ -54,4 +54,4 @@ const data = [
     },
   ];
 
-  export default data;
+  export default projectData;

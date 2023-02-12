@@ -105,6 +105,10 @@ h3 {
   gap: 20px;
 }
 
+.experience-content {
+  background-color: var(--med-gray);
+}
+
 
 
 

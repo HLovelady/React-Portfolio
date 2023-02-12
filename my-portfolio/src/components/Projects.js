@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
-import data from "../data";
+import data from "../Data/projectData";
 
 
 function Projects() {

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import data from "../../data";
+import projectData from "../../Data/projectData";
 
 function Project() {
     return (
