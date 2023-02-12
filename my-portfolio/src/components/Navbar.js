@@ -18,6 +18,7 @@ function Navbar({ currentPage, handlePageChange }) {
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          style={{color: '#FFFFFF'}}
         >
           Haylee Lovelady
         </a>
