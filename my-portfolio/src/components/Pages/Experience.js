@@ -2,32 +2,73 @@ import React, { useState } from "react";
 // import jsPDF from 'jspdf'
 import Work from "../../components/Work";
 import workData from "../../workData";
+import Education from "../../components/Education";
+import educationData from "../../educationData";
+import Skills from "../../components/Skills";
+import skillsData from "../../skillsData";
 
 function Experience() {
-  const [dataset, setDataset] = useState(workData);
+  const [workdataset, setWorkDataset] = useState(workData);
+  const [skillsdataset, setSkillsDataset] = useState(skillsData);
+  const [schooldataset, setSchoolDataset] = useState(educationData);
+ 
 
   return (
     <div className="experience">
       <h1 className="title">Experience</h1>
-      <div className="experience-content" style={{width:'75%'}}>
+      <div className="experience-content" style={{ width: "75%" }}>
+        {/* Work experience section */}
         <div className="work-history">
           <h2>Work History.</h2>
           <div className="job">
-            {dataset.map((item) => (
+            {workdataset.map((item) => (
               //console.log(item);
               // something logic happenin on item
               <Work
                 work={item}
                 className={item.id}
-                setSelected={setDataset}
+                setSelected={setWorkDataset}
                 key={item.id}
               />
             ))}
           </div>
         </div>
-        <div className="skills"></div>
-        <div className="education"></div>
 
+
+        {/* Education experience section */}
+        <div className="education-history">
+          <h2>Education History.</h2>
+          <div className="school">
+            {schooldataset.map((item) => (
+              //console.log(item);
+              // something logic happenin on item
+              <Education
+                education={item}
+                className={item.id}
+                setSelected={setSchoolDataset}
+                key={item.id}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* Skills section */}
+        <div className="skills-experience">
+          <h2>Developed Skills.</h2>
+          <div className="skills">
+            {skillsdataset.map((item) => (
+              //console.log(item);
+              // something logic happenin on item
+              <Skills
+                skills={item}
+                className={item.id}
+                setSelected={setSkillsDataset}
+                key={item.id}
+              />
+            ))}
+          </div>
+        </div>
+        
         <button
           className="resume"
           style={{
