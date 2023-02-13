@@ -1,7 +1,7 @@
-import music from "../images/MyLocalMusic2.png";
-import profile from "../images/profile-gen.png";
+import music from "../images/My-LocalMusic.png";
+import profile from "../images/teamprofile-gen.png";
 import safe from "../images/safe-nyt.png";
-import social from "../images/social-nw-api.png";
+import social from "../images/socialnw-api.png";
 
 
 const projectData = [
@@ -12,9 +12,9 @@ const projectData = [
       image: music,
       tech: "HTML, CSS, Javascript",
       area: "Frontend",
-      gitHub: "",
+      gitHub: "https://github.com/jsadowski7/MyLocalMusic",
       deployed: "",
-      content: "",
+      content: "Streaming services today have made it easier than ever to listen to music from all around the world, but with unlimited access to artists, finding and supporting local bands has become more difficult. With Austin being the music capital of the world, MyLocalMusic strives to connect Austinites with local bands and allowing the user to save artists that they have seen live.",
     },
 
     {
@@ -24,9 +24,9 @@ const projectData = [
       image: profile,
       tech: "Javascript",
       area: "Backend",
-      gitHub: "",
+      gitHub: "https://github.com/HLovelady/Team-Profile-Generator",
       deployed: "",
-      content: "",
+      content: "This command line application builds a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
     },
 
     {
@@ -36,9 +36,9 @@ const projectData = [
       image: safe,
       tech: "HTML, CSS, Javascript",
       area: "Frontend",
-      gitHub: "",
+      gitHub: "https://github.com/HLovelady/Safe-Nyt-App",
       deployed: "",
-      content: "",
+      content: "As a local resident or tourist, you want to look up safe venues or establishments to visit so that you feel secure while venturing out on the town in an unfamiliar location. Need an app that can help you protect yourself on the road as it has verified and vetted routes. You need to get information based on safety ratings of nearby location that can include theft, violence, human rights issues, disease outbreaks, natural disasters, protests and civil unrest, or terrorist activity.",
     },
 
     {
@@ -48,9 +48,9 @@ const projectData = [
       image: social,
       tech: "Javascript",
       area: "Backend",
-      gitHub: "",
+      gitHub: "https://github.com/HLovelady/Social-network-API",
       deployed: "",
-      content: "",
+      content: "This social network API application utilizes Express.js for routing, a MongoDB database, and the Mongoose ODM.The use of this application is so users can share their thoughts, react to other's thoughts, and create a friend list.",
     },
   ];
 

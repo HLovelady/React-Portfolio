@@ -1,5 +1,5 @@
 :root {
-  --med-gray: #2D2E32;
+  --med-gray: #353535;
   --drk-gray: #25262A;
   --white: #FFFFFF;
   --lgt-gray: #777777;
@@ -45,6 +45,7 @@ h1, h2{
   padding: 5px;
   background-color: var(--med-gray);
   background-size: cover;
+
 }
 
 a:link, a:visited {
@@ -90,20 +91,26 @@ h3 {
 
 .card {
   background-color: var(--med-gray);
-  width: 400px;
-  height: 200px;
+  /* width: 400px;
+  height: 200px; */
   border-radius: 8px;
   /* padding: 10px; */
   
 }
-.card:hover + .card>.proj-img{
+/* .card:hover + .card>.proj-img{ */
     /* display: block; */
-    background: cover;
+    /* background: cover; */
+/*     
+} */
+
+.card:hover {
+  border: var(--green);
+  
 }
 
-.card>.proj-img {
+/* .card>.proj-img {
   display: none;
-}
+} */
 
 .job {
   display: flex;
