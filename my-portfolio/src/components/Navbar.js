@@ -12,7 +12,7 @@ const styles = {
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="flex light-bg justify-space">
+    <nav className="navbar flex light-bg justify-space">
       <h4>
         <a
           href="#home"
@@ -36,7 +36,17 @@ function Navbar({ currentPage, handlePageChange }) {
             {"< Experience />"}
           </a>
         </li>
-
+        <li className="nav-item" style={styles.green}>
+          <a
+            href="#project"
+            onClick={() => handlePageChange("Project")}
+            className={
+              currentPage === "project" ? "nav-link active" : "nav-link"
+            }
+          >
+            {"< Projects />"}
+          </a>
+        </li>
         <li className="nav-item" style={styles.green}>
           <a
             href="#contact"

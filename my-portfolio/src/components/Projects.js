@@ -1,25 +1,37 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import data from "../Data/projectData";
+import Project from "./Pages/Project";
 
 
 
-function Projects() {
+function Projects(props) {
   const [selected, setSelected] = useState({});
   const [show, setShow] = useState(false);
-
-  const [dataset, setDataset] = useState(data);
-
   const [showImage, setShowImage] = useState();
+  const handleMouseEnter = () => setShowImage(true)
+  const handleMouseLeave = () => setShowImage(false)
 
-const handleMouseEnter = () => setShowImage(true)
-const handleMouseLeave = () => setShowImage(false)
+  const [project, setProject] = useState();
+
+const projectpage = props
+
+const [dataset, setDataset] = useState(data);
+
+const handleClick = () => {
+  setProject('')
+  console.log('project clicked');
+}
 
 
   useEffect(() => {
     // fetch API
     // fetch SERVER ROUTES
   }, []);
+
+
+
+
 
   return (
     <div
@@ -32,6 +44,9 @@ const handleMouseLeave = () => setShowImage(false)
         Margin: "5px",
       }}
     >
+      <div className="card-click" onClick={()=>{
+        handleClick('')
+      }}>
       {dataset.map((item) => (
         //console.log(item);
         // something logic happenin on item
@@ -40,14 +55,15 @@ const handleMouseLeave = () => setShowImage(false)
           className={item.id}
           setSelected={setSelected}
           key={item.id}
-        />
+          />
+
       ))}
 
 
       {/* { selected ? (
             <Card data={selected} /> )
             : <></> } */}
-
+    </div>  
     </div>
   );
 }

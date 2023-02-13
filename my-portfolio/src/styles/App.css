@@ -37,7 +37,7 @@ h1, h2{
   font-weight: lighter;
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: baseline;

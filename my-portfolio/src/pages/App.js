@@ -1,18 +1,3 @@
-// import React from "react";
-// import PortfolioContainer from "../components/PortfolioContainer";
-// import Navbar from '../components/Navbar';
-// import '../styles/App.css';
-
-
-// // const App = () => <PortfolioContainer />;
-
-
-
-// export default App;
-
-
-
-
 import React, { useState } from 'react';
 import Home from "../components/Pages/Home";
 import Project from "../components/Pages/Project";

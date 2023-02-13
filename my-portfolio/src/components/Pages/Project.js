@@ -1,18 +1,87 @@
-import React, { useState } from "react";
-import projectData from "../../Data/projectData";
+// import React, { useState } from "react";
+// import projectData from "../../Data/projectData";
+
+// function Project(props) {
+//   const [projectdataset, setProjectDataset] = useState(projectData);
+
+//   return (
+//     <div className="projectContainer">
+
+//       <img></img>
+//       <h2>Project Name</h2>
+//       <div className="project-content">
+//         <p>GitHub Link</p>
+//         <p>Deployed App Link</p>
+//         <p>About Project</p>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Project;
+
+import React, { useEffect, useState } from "react";
+import Card from "../../components/Card";
+import data from "../../Data/projectData";
+// import Project from "../../Pages/Project";
 
 function Project(props) {
-  const [projectdataset, setProjectDataset] = useState(projectData);
+  const [selected, setSelected] = useState({});
+  const [show, setShow] = useState(false);
+  const [showImage, setShowImage] = useState();
+  const handleMouseEnter = () => setShowImage(true);
+  const handleMouseLeave = () => setShowImage(false);
+
+  const [project, setProject] = useState();
+
+  const projectpage = props;
+
+  const [dataset, setDataset] = useState(data);
+
+  const handleClick = () => {
+    setProject("");
+    console.log("project clicked");
+  };
+
+  useEffect(() => {
+    // fetch API
+    // fetch SERVER ROUTES
+  }, []);
 
   return (
-    <div className="projectContainer">
+    <div classname="projects">
+      <h1 className="title">Projects</h1>
+      <div
+        className="project_cards stacked"
+        style={{
+          display: "grid",
+          justifyItems: "center",
+          rowGap: "30px",
+          gridTemplateColumns: "1fr 1fr",
+          Margin: "5px",
+        }}
+      >
+        <div
+          className="card-click"
+          onClick={() => {
+            handleClick("");
+          }}
+        >
+          {dataset.map((item) => (
+            //console.log(item);
+            // something logic happenin on item
+            <Card
+              bingo={item}
+              className={item.id}
+              setSelected={setSelected}
+              key={item.id}
+            />
+          ))}
 
-      <img></img>
-      <h2>Project Name</h2>
-      <div className="project-content">
-        <p>GitHub Link</p>
-        <p>Deployed App Link</p>
-        <p>About Project</p>
+          {/* { selected ? (
+            <Card data={selected} /> )
+            : <></> } */}
+        </div>
       </div>
     </div>
   );

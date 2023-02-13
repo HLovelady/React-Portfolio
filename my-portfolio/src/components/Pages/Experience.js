@@ -7,6 +7,7 @@ import educationData from "../../Data/educationData";
 import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import skillsData from "../../Data/skillsData";
+import Pdf from "../../images/Haylee_Lovelady_Resume.pdf";
 
 function Experience() {
   const [workdataset, setWorkDataset] = useState(workData);
@@ -36,7 +37,8 @@ function Experience() {
       >
         <a
           className="resume"
-          href="../images/H-Lovelady-Resume.pdf"
+          // href="../../images/Haylee_Lovelady_Resume.pdf"
+          href={Pdf}
           download="Haylee Lovelady Resume.pdf"
           style={{
             fontWeight: "lighter",
