@@ -24,6 +24,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Mono';
+  font-weight: lighter;
   color: var(--white);
   background-color: var(--drk-gray);
 }
@@ -31,6 +32,9 @@ body {
 header {
   background-color: var(--med-gray);
 
+}
+h1, h2{
+  font-weight: lighter;
 }
 
 nav {
@@ -74,12 +78,14 @@ ul , li, h4{
   align-items: baseline;
   margin: 5px;
   padding: 5px;
+  font-weight: lighter;
 }
 
 
 h3 {
   color: var(--green);
   padding: 20px;
+  font-weight: lighter;
 }
 
 .card {
@@ -108,8 +114,6 @@ h3 {
 .experience-content {
   background-color: var(--med-gray);
 }
-
-
 
 
 
