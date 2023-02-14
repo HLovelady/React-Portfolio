@@ -49,9 +49,9 @@ function ContactForm() {
     }
 
     return (
-        <div className=" card contact_cards" style={{display: "flex", justifyContent:"center", alignItems:"center", height:"150px", width:"325px"}}>
+        <div className=" second-card contact_cards" style={{display: "grid", justifyContent:"center", placeItems:"center", height:"200px", width:"400px", marginTop: "50px"}}>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div style={{display:"flex", justifyContent:"space-between"}}>
                     <label htmlFor="name">Enter Name</label>
                     <input 
                         type="text"
@@ -60,6 +60,7 @@ function ContactForm() {
                         //onChange={handleChange}
                         className="contact-input"
                         value={username}
+                        
                     />
                 </div>
                 <div>

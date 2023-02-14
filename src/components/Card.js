@@ -1,48 +1,7 @@
 import React, { useState } from "react";
 
-// const [showImage, setShowImage] = useState();
-
-// const handleMouseEnter = () => setShowImage(true)
-// const handleMouseLeave = () => setShowImage(false)
 
 function Card(props) {
-  // console.log(props.bingo.image); // ---> { bingo: { } }
-  // console.log(props.bingo);
-  // const handleClick = (event) => {
-  //   console.log("Clicked");
-
-  //   console.log(event.target);
-  //   console.log(event.target.textContent);
-  //   let objData = event.target.textContent;
-  //   console.log(objData);
-  //   props.setSelected(objData);
-  // };
-
-  //   return (
-
-  //     <div
-  //       className="card"
-  //       onClick={handleClick}
-  //       style={{
-  //         backgroundImage: `url(${props.bingo.image})`,
-  //         backgroundSize: "cover"
-  //       }}
-  //     >
-  //     <div  className=""  style={{
-  //         backgroundImage: `url(${props.bingo.image})`,  backgroundSize: "cover"}}></div>
-  //       <h1>{props.bingo.title}</h1>
-  //       <p className="tech">Tech Focus: {props.bingo.tech}</p>
-  //       <p className="area">Focus Area: {props.bingo.area}</p>
-  //       <img
-  //         className="proj-img"
-  //         src={props.bingo.image}
-  //         alt={props.bingo.title}
-  //       />
-  //     </div>
-  //   );
-  // }
-
-  // export default Card;
 
   return (
     // <div
@@ -85,11 +44,14 @@ function Card(props) {
         onClick=""
         className="github"
         style={{
+          display:"grid",
+          placeItems:"center",
           textAlign: "center",
           backgroundColor: "#2D2E32",
           borderColor: "white",
           borderRadius: "5px",
           borderWidth: "2px",
+          marginBottom: "5px"
         }}
       >
         <a

@@ -30,12 +30,12 @@ function Navbar({ currentPage, handlePageChange }) {
           <a
             href="#experience"
             onClick={() => handlePageChange("Experience")}
-            className={
+            className= {
               currentPage === "Experience" ? "nav-link active" : "nav-link"
               
             }
           >
-            {"< Experience />"}
+            {"Experience"}
           </a>
         </li>
         <li className="nav-item" style={styles.green}>
@@ -46,7 +46,7 @@ function Navbar({ currentPage, handlePageChange }) {
               currentPage === "project" ? "nav-link active" : "nav-link"
             }
           >
-            {"< Projects />"}
+            {"Projects"}
           </a>
         </li>
         <li className="nav-item" style={styles.green}>
@@ -57,7 +57,7 @@ function Navbar({ currentPage, handlePageChange }) {
               currentPage === "Contact" ? "nav-link active" : "nav-link"
             }
           >
-            {"< Contact.Me />"}
+            {"Contact Me"}
           </a>
         </li>
       </ul>

@@ -104,7 +104,7 @@ h3 {
   font-weight: lighter;
 }
 
-.card {
+.card, .second-card{
   background-color: var(--med-gray);
   /* width: 400px;
   height: 200px; */
