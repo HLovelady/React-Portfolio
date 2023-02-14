@@ -59,7 +59,7 @@ function Card(props) {
         padding: "10px",
       }}
     >
-      <h1>{props.bingo.title}</h1>
+      <h1 style={{ display:"flex", fontSize:"20px", justifyContent:"center"}}>{props.bingo.title}</h1>
       <img
         src={props.bingo.image}
         alt={props.bingo.title}
@@ -78,6 +78,8 @@ function Card(props) {
       <button
         className="github"
         style={{
+          display:"flex", 
+          justifyItem:"center",
           textAlign: "center",
           backgroundColor: "#2D2E32",
           borderColor: "white",

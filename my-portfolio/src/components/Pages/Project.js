@@ -69,7 +69,7 @@ function Project(props) {
           style={{
             display: "grid",
             justifyContent: "center",
-            padding: "10px",
+            padding: "50px",
             gridColumn: "1",
             gridAutoFlow:"row",
             gridGap: "30px",

@@ -22,6 +22,7 @@ function Experience() {
         justifyItems: "center",
         gridGap: "15px, 15px, 15px, 15px",
         gridTemplateColumns: "1fr 4fr;",
+        
       }}
     >
       <h1 className="title">Experience</h1>
@@ -34,6 +35,7 @@ function Experience() {
           borderColor: "white",
           borderRadius: "5px",
           borderWidth:"2px",
+          margin:"15px"
         }}
       >
         <a
@@ -53,7 +55,8 @@ function Experience() {
         className="resume-container"
         style={{  
           width: "75%", 
-          justifyContent: "center"
+          justifyContent: "center",
+          gridAutoFlow:"row",
         }}
       >
         {/* Skills section */}
@@ -62,7 +65,8 @@ function Experience() {
           style={{ 
             display: "grid", 
             gridColumn: "1",
-            gridRow: "1/2", 
+            gridRow: "1/2",
+            
           }}
         >
           <h2>Developed Skills.</h2>
@@ -70,7 +74,8 @@ function Experience() {
             className="experience-content skills"
             style={{ 
               display: "grid", 
-              justifyItems: "center" 
+              justifyItems: "center",
+              borderRadius: "8px"  
             }}
           >
             {skillsdataset.map((item) => (
@@ -95,7 +100,7 @@ function Experience() {
             }}
           >
             <h2>Work History.</h2>
-            <div className="experience-content" style={{ display: "grid" }}>
+            <div className="experience-content" style={{ borderRadius: "8px"}}>
               {workdataset.map((item) => (
                 //console.log(item);
                 // something logic happenin on item
@@ -112,7 +117,7 @@ function Experience() {
           {/* Education experience section */}
           <div className="education-history">
             <h2>Education History.</h2>
-            <div className="experience-content">
+            <div className="experience-content" style={{ borderRadius: "8px"}}>
               {schooldataset.map((item) => (
                 //console.log(item);
                 // something logic happenin on item

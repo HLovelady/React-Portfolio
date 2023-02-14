@@ -1,4 +1,4 @@
-import music from "../images/My-LocalMusic.png";
+import music from "../images/mylocal-music.png";
 import profile from "../images/teamprofile-gen.png";
 import safe from "../images/safe-nyt.png";
 import social from "../images/socialnw-api.png";
