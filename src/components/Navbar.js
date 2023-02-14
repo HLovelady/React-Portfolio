@@ -2,7 +2,6 @@ import React from "react";
 
 
 
-
 const styles = {
   green: {
     color: "#4dba87",
@@ -60,10 +59,9 @@ function Navbar({ currentPage, handlePageChange }) {
           >
             {"< Contact.Me />"}
           </a>
-          
-          
         </li>
       </ul>
+
     </nav>
   );
 }
