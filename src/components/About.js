@@ -38,7 +38,7 @@ function About() {
         <i style={styles.green}>React framework.</i>
       </p>
       <p>I also have experience working with </p>
-      <i>HTML, CSS, Node.JS, Express.JS, SQL, & APIs</i>
+      <i>HTML, CSS, Javascript, Node.JS, Express.JS, SQL, & APIs</i>
     </div>
   );
 }
