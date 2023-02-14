@@ -94,8 +94,9 @@ h3 {
   /* width: 400px;
   height: 200px; */
   border-radius: 8px;
-  border: 1px solid var(--green),
+  border: 1px solid transparent;
   /* padding: 10px; */
+
   
 }
 /* .card:hover + .card>.proj-img{ */
@@ -105,7 +106,8 @@ h3 {
 } */
 
 .card:hover {
-  border: var(--green);
+  border-color: var(--green);
+  transform: scale(1.05);
   
 }
 
