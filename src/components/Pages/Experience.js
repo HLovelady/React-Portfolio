@@ -103,7 +103,7 @@ function Experience() {
             <div className="experience-content" style={{ borderRadius: "8px"}}>
               {workdataset.map((item) => (
                 //console.log(item);
-                // something logic happenin on item
+                // something logic happening on item
                 <Work
                   work={item}
                   className={item.id}
