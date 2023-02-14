@@ -57,9 +57,15 @@ function Card(props) {
       style={{
         justifyContent: "center",
         padding: "10px",
+        width:"300px",
+        height:"400px",
       }}
     >
-      <h1 style={{ display:"flex", fontSize:"20px", justifyContent:"center"}}>{props.bingo.title}</h1>
+      <h1
+        style={{ display: "flex", fontSize: "20px", justifyContent: "center" }}
+      >
+        {props.bingo.title}
+      </h1>
       <img
         src={props.bingo.image}
         alt={props.bingo.title}
@@ -75,12 +81,10 @@ function Card(props) {
         {props.bingo.area}
       </p>
 
-      <button 
+      <button
         onClick=""
         className="github"
         style={{
-          display:"flex", 
-          justifyItem:"center",
           textAlign: "center",
           backgroundColor: "#2D2E32",
           borderColor: "white",

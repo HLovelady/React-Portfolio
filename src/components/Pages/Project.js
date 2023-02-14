@@ -55,7 +55,7 @@ function Project(props) {
         className="project_cards stacked"
         style={{
           display: "grid",
-          justifyItems: "center",
+          placeItems: "center",
           rowGap: "30px",
           gridTemplateColumns: "1fr 1fr",
           Margin: "5px",
@@ -68,7 +68,7 @@ function Project(props) {
           }}
           style={{
             display: "grid",
-            justifyContent: "center",
+            placeItems: "center",
             padding: "50px",
             gridColumn: "1",
             gridAutoFlow:"row",
