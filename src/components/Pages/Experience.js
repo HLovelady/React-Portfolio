@@ -23,7 +23,7 @@ function Experience() {
         justifyItems: "center",
         gridGap: "15px, 15px, 15px, 15px",
         gridTemplateColumns: "1fr 4fr;",
-        
+        minHeight: "80vh"
       }}
     >
       <h1 className="title">Experience</h1>

@@ -5,7 +5,7 @@ import About from "../About";
 
 function Home() {
   return (
-    <div>
+    <div style={{ minHeight: "83vh"}}>
       {/* <Navbar /> */}
       <Header />
       {/* <Projects /> */}

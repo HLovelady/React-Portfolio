@@ -49,7 +49,7 @@ function Project(props) {
   }, []);
 
   return (
-    <div classname="projects">
+    <div classname="projects" style={{ minHeight: "80vh"}}>
       <h1 className="title">Projects</h1>
       <div
         className="project_cards stacked"
