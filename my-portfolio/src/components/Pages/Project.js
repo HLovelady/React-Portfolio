@@ -66,6 +66,15 @@ function Project(props) {
           onClick={() => {
             handleClick("");
           }}
+          style={{
+            display: "grid",
+            justifyContent: "center",
+            padding: "10px",
+            gridColumn: "1",
+            gridAutoFlow:"row",
+            gridGap: "30px",
+            gridTemplateColumns: "1fr 1fr",
+          }}
         >
           {dataset.map((item) => (
             //console.log(item);

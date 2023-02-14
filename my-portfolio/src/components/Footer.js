@@ -7,11 +7,10 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Footer() {
   return (
     <div 
-      styles={{ 
-        position: "fixed", 
-        bottom: 0, 
+      style={{ 
         width: "100%", 
-        display: "flex", 
+        display: "flex",
+        justifyContent:"center", 
         flex:"space-between"}}>
       <ul className="footer-icons">
         {/* GitHub Icon Link */}

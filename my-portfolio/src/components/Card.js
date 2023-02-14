@@ -52,7 +52,13 @@ function Card(props) {
     //   //   backgroundImage: ``,
     //   // }}
     // >
-    <div className="card" style= {{display:"grid", justifyContent: "center",padding: "10px", gridColumn:"1"}}>
+    <div
+      className="card"
+      style={{
+        justifyContent: "center",
+        padding: "10px",
+      }}
+    >
       <h1>{props.bingo.title}</h1>
       <img
         src={props.bingo.image}
@@ -60,8 +66,14 @@ function Card(props) {
         className="proj-img"
         style={{ width: "300px" }}
       />
-      <p className="tech"><strong>Tech Focus:</strong>{props.bingo.tech}</p>
-      <p className="area"><strong>Focus Area: </strong>{props.bingo.area}</p>
+      <p className="tech">
+        <strong>Tech Focus:</strong>
+        {props.bingo.tech}
+      </p>
+      <p className="area">
+        <strong>Focus Area: </strong>
+        {props.bingo.area}
+      </p>
 
       <button
         className="github"

@@ -28,6 +28,7 @@ function Experience() {
       <button
         className="resume"
         style={{
+          display: "grid",
           textAlign: "center",
           backgroundColor: "#2D2E32",
           borderColor: "white",
@@ -126,7 +127,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </div>
   );
 }

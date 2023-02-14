@@ -36,7 +36,7 @@ function App() {
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-
+      <Footer />
     </div>
 
 
