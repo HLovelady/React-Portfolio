@@ -7,6 +7,7 @@ import educationData from "../../Data/educationData";
 import Skills from "../../components/Skills";
 import Footer from "../../components/Footer";
 import skillsData from "../../Data/skillsData";
+import Button from 'react-bootstrap/Button';
 import Pdf from "../../images/Haylee_Lovelady_Resume.pdf";
 
 function Experience() {

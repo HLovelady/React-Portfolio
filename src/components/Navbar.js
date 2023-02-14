@@ -1,6 +1,8 @@
 import React from "react";
 
 
+
+
 const styles = {
   green: {
     color: "#4dba87",
@@ -31,6 +33,7 @@ function Navbar({ currentPage, handlePageChange }) {
             onClick={() => handlePageChange("Experience")}
             className={
               currentPage === "Experience" ? "nav-link active" : "nav-link"
+              
             }
           >
             {"< Experience />"}
@@ -57,6 +60,8 @@ function Navbar({ currentPage, handlePageChange }) {
           >
             {"< Contact.Me />"}
           </a>
+          
+          
         </li>
       </ul>
     </nav>

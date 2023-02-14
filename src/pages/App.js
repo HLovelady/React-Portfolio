@@ -5,6 +5,7 @@ import Experience from "../components/Pages/Experience";
 import Contact from "../components/Pages/Contact";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+
 import '../styles/App.css';
 
 
