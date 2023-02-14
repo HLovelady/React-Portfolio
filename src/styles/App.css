@@ -41,7 +41,7 @@ h1, h2{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 5px;
+  margin: 0px;
   padding: 5px;
   background-color: var(--med-gray);
   background-size: cover;
