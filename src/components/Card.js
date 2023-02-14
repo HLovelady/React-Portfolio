@@ -75,7 +75,8 @@ function Card(props) {
         {props.bingo.area}
       </p>
 
-      <button
+      <button 
+        onClick=""
         className="github"
         style={{
           display:"flex", 
@@ -89,7 +90,7 @@ function Card(props) {
       >
         <a
           className="github"
-          src={props.bingo.gitHub}
+          href={props.bingo.gitHub}
           style={{
             fontWeight: "lighter",
             fontFamily: "Roboto Mono",
