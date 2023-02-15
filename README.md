@@ -35,7 +35,7 @@ No license used in this application
 
 ## Credits
 
-Clicking [this link](https://react-portfolio-oavba3j9r-hlovelady.vercel.app/#home) will bring you to my deployed React Portfolio.
+Clicking [this link](https://react-portfolio-jnt3u9zgd-hlovelady.vercel.app/) will bring you to my deployed React Portfolio.
 <br>
 Clicking [this link](https://github.com/HLovelady/React-Portfolio) brings you to this GitHub Repository. 
 
