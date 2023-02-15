@@ -14,7 +14,7 @@ const styles = {
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar flex light-bg justify-space">
-      <h4>
+      <h4 style={{fontSize:"25px"}}>
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}

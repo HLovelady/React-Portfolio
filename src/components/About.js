@@ -20,7 +20,7 @@ function About() {
         wordWrap: "normal"
       }}
     >
-      <h2 className="title">LET ME INTRODUCE MYSELF</h2>
+      <h2 className="title" style={{fontWeight:"bold"}}>LET ME INTRODUCE MYSELF</h2>
 
       <p style={{ marginTop: "30px" }}>
         I recently completed the &nbsp;
