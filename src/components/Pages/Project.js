@@ -31,13 +31,6 @@ function Project(props) {
       <h1 className="title">Projects</h1>
       <div
         className="project_cards stacked"
-        style={{
-          display: "grid",
-          placeItems: "center",
-          rowGap: "30px",
-          gridTemplateColumns: "1fr 1fr",
-          Margin: "5px",
-        }}
       >
         <div
           className="card-click"
@@ -47,11 +40,12 @@ function Project(props) {
           style={{
             display: "grid",
             placeItems: "center",
+            justifyContent: "center",
             padding: "50px",
             gridColumn: "1",
             gridAutoFlow:"row",
             gridGap: "30px",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: "1fr 1fr ",
           }}
         >
           {dataset.map((item) => (

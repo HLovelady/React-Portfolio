@@ -30,7 +30,7 @@ function Experience() {
       <button
         className="resume"
         style={{
-          display: "grid",
+          // display: "grid",
           textAlign: "center",
           backgroundColor: "#2D2E32",
           borderColor: "white",
@@ -55,28 +55,29 @@ function Experience() {
       <div
         className="resume-container"
         style={{  
+          display:"grid",
           width: "75%", 
           justifyContent: "center",
-          gridAutoFlow:"row",
+          gridAutoFlow:"rows",
+          gridTemplateColumns: "1fr 1fr",
+          gridTemplateRows:"1fr 1fr",
+          textAlign: "center",
+
+
+          // gridRow: "1/2",
         }}
       >
         {/* Skills section */}
         <div
           className="skills-experience"
-          style={{ 
-            display: "grid", 
-            gridColumn: "1",
-            gridRow: "1/2",
-            
-          }}
+
         >
           <h2>Developed Skills.</h2>
           <div
             className="experience-content skills"
             style={{ 
-              display: "grid", 
-              justifyItems: "center",
-              borderRadius: "8px"  
+              borderRadius: "8px",
+              textAlign: "center",  
             }}
           >
             {skillsdataset.map((item) => (
@@ -94,11 +95,7 @@ function Experience() {
           {/* Work experience section */}
           <div
             className="work-history"
-            style={{ 
-              display: "grid", 
-              gridColumn: "2", 
-              gridRow: "1/2" 
-            }}
+ 
           >
             <h2>Work History.</h2>
             <div className="experience-content" style={{ borderRadius: "8px"}}>

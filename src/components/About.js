@@ -8,17 +8,16 @@ const styles = {
 
 function About() {
   return (
+    <div style={{display:"flex", justifyContent:"center"}}>
     <div
       className="second-card"
       style={{
-        display: "grid",
-        placeItems: "center",
         marginTop: "20px",
-        gridTemplateRows: "auto",
-        width: "500px",
-        placeContent: "center",
+        width: "90%",
+        maxWidth: "500px",
         padding: "20px",
-        textAlign: "center"
+        textAlign: "center",
+        wordWrap: "normal"
       }}
     >
       <h2 className="title">LET ME INTRODUCE MYSELF</h2>
@@ -39,6 +38,7 @@ function About() {
       </p>
       <p>I also have experience working with </p>
       <i>HTML, CSS, Javascript, Node.JS, Express.JS, SQL, & APIs</i>
+    </div>
     </div>
   );
 }

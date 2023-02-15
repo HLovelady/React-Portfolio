@@ -129,6 +129,11 @@ h3 {
   display: none;
 } */
 
+p, i, h2 {
+    word-break: none;
+    white-space: normal;
+}
+
 .job {
   display: flex;
   align-items: baseline;
