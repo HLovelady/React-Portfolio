@@ -31,7 +31,7 @@ No license used in this application
 
 ## Mockup
 
-![React-Portfolio-Image](src/images/reactportfolio.png)
+![React-Portfolio-Image](src/images/portfolio.png)
 
 ## Credits
 
