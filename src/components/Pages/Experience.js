@@ -16,16 +16,18 @@ function Experience() {
   const [schooldataset, setSchoolDataset] = useState(educationData);
 
   return (
+    <>
     <div
       className="experience"
       style={{
-        display: "grid",
-        justifyItems: "center",
-        gridGap: "15px, 15px, 15px, 15px",
-        gridTemplateColumns: "1fr 4fr;",
-        minHeight: "80vh"
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection:"column",
+
       }}
     >
+
       <h1 className="title">Experience</h1>
       <button
         className="resume"
@@ -52,19 +54,16 @@ function Experience() {
           Download Me!
         </a>
       </button>
+      </div>
       <div
         className="resume-container"
         style={{  
-          display:"grid",
-          width: "75%", 
-          justifyContent: "center",
-          gridAutoFlow:"rows",
-          gridTemplateColumns: "1fr 1fr",
-          gridTemplateRows:"1fr 1fr",
-          textAlign: "center",
+        display: "grid",
+        gridTemplateColumns:"1fr 2fr",
+        gridGap:"20px",
+        padding:"0 50px",
+        gridAutoRows:"1fr",
 
-
-          // gridRow: "1/2",
         }}
       >
         {/* Skills section */}
@@ -93,6 +92,11 @@ function Experience() {
           </div>
 
           {/* Work experience section */}
+         
+        </div>
+        
+      
+      <div>
           <div
             className="work-history"
  
@@ -128,10 +132,9 @@ function Experience() {
               ))}
             </div>
           </div>
-        </div>
       </div>
-      
     </div>
+    </>
   );
 }
 
