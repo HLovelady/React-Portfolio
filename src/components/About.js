@@ -10,7 +10,7 @@ function About() {
   return (
     <div style={{display:"flex", justifyContent:"center"}}>
     <div
-      className="second-card"
+      // className="second-card"
       style={{
         marginTop: "20px",
         width: "90%",
