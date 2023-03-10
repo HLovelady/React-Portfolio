@@ -2,6 +2,7 @@ import music from "../images/mylocal-music.png";
 import profile from "../images/teamprofile-gen.png";
 import safe from "../images/safe-nyt.png";
 import social from "../images/socialnw-api.png";
+import jobtrack from "../images/jobtrack.png";
 
 
 const projectData = [
@@ -19,14 +20,14 @@ const projectData = [
 
     {
       id: 2,
-      title: "Team Profile Generator",
-      content: "Team Profile Generator",
-      image: profile,
-      tech: "Javascript",
-      area: "Backend",
-      gitHub: "https://github.com/HLovelady/Team-Profile-Generator",
+      title: "Job Sight",
+      content: "Job Sight",
+      image: jobtrack,
+      tech: "React",
+      area: "Front End",
+      gitHub: "https://github.com/Nevin-Lewis/job_searcher",
       deployed: "",
-      content: "This command line application builds a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+      content: "JobSight is an organizational tool used to manage the job searching process. Users are able to add details to jobs that they have applied for or hope to apply for and self track their progress along the way via a simple drag and drop system. Users can enter details into each job to keep track of important information like contact info, location, job posting, etc.",
     },
 
     {
@@ -51,6 +52,19 @@ const projectData = [
       gitHub: "https://github.com/HLovelady/Social-network-API",
       deployed: "",
       content: "This social network API application utilizes Express.js for routing, a MongoDB database, and the Mongoose ODM.The use of this application is so users can share their thoughts, react to other's thoughts, and create a friend list.",
+    },
+
+
+    {
+      id: 5,
+      title: "Team Profile Generator",
+      content: "Team Profile Generator",
+      image: profile,
+      tech: "Javascript",
+      area: "Backend",
+      gitHub: "https://github.com/HLovelady/Team-Profile-Generator",
+      deployed: "",
+      content: "This command line application builds a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
     },
   ];
 
